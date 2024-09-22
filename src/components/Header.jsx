@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Header = ({ cartItems }) => {
+const Header = () => {
   return (
     <header>
-      <h1>Flopkart</h1>
+      <h1>Flopkart.com</h1>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/cart">Cart ({cartItems.length})</Link>
+        <Link to="/cart">Cart</Link>
         <Link to="/login">Login</Link>
       </nav>
     </header>
@@ -15,3 +15,4 @@ const Header = ({ cartItems }) => {
 };
 
 export default Header;
+

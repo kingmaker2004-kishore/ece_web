@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ProductCard = ({ product, addToCart }) => {
   return (
     <div className="product-card">
-      <img src={product.image} alt={product.name} />
+      <img src={product.image} alt={product.name} className="product-image" />
       <h2>{product.name}</h2>
       <p>Price: Rs.{product.price}</p>
       <Link to={`/product/${product.id}`}>View Details</Link>
@@ -14,3 +14,4 @@ const ProductCard = ({ product, addToCart }) => {
 };
 
 export default ProductCard;
+
