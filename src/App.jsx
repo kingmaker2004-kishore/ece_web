@@ -20,7 +20,7 @@ const App = () => {
     {
       id: 2,
       name: 'Product 2',
-      price: 50,
+      price: 500,
       description: 'Description of Product 2',
       image: '/images/image2.jpg',
     },
@@ -79,6 +79,13 @@ const App = () => {
       price: 1,
       description: 'Description of Product 10',
       image: '/images/image10.jpg',
+    },
+    {
+      id: 11,
+      name: 'Product 11',
+      price: 9,
+      description: 'Description of Product 10',
+      image: '/images/image11.jpg',
     },
     
   ];
