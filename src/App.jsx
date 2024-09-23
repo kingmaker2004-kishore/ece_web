@@ -84,8 +84,15 @@ const App = () => {
       id: 11,
       name: 'Product 11',
       price: 9,
-      description: 'Description of Product 10',
+      description: 'Description of Product 11',
       image: '/images/image11.jpg',
+    },
+    {
+      id: 12,
+      name: 'Product 12',
+      price: 0.50,
+      description: 'Description of Product 12',
+      image: '/images/image12.jpg',
     },
     
   ];
